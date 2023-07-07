@@ -50,7 +50,7 @@ function createFirework(x, y) {
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-	// The splice below adds a "1" into the particles array if the alpha or radius of the updated particle has gone below 1. 
+
   for (let i = 0; i < particles.length; i++) {
     particles[i].update()
 
